@@ -1,7 +1,8 @@
-#Jenkins URL 
+### Jenkins URL 
 http://localhost:9090/
 
-#Pipeline Declarative script for Windows
+### Pipeline Declarative script for Windows
+```
 pipeline {
     agent any 
     stages {
@@ -24,3 +25,4 @@ pipeline {
         }
     }
 }
+```
